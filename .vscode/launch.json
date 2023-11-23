@@ -1,0 +1,31 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Default",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "Android",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "emulator-5554"
+    },
+    {
+      "name": "iPhone15Pro",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "B8F9F7A1-FC55-44B3-96EE-A65B69614E1C"
+    }
+  ],
+  "compounds": [
+    {
+      "name": "All Deivces",
+      "configurations": ["Android", "iPhone15Pro"]
+    }
+  ]
+}
