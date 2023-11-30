@@ -57,7 +57,7 @@ class _WeatherScreenState extends State<WeatherScreen> {
           IconButton(
               onPressed: () {
                 setState(() {
-                  // weather = _getCurrentWeather();
+                  weather = _getCurrentWeather();
                 });
               },
               icon: const Icon(Icons.refresh))
@@ -66,8 +66,6 @@ class _WeatherScreenState extends State<WeatherScreen> {
       body: FutureBuilder(
         future: weather,
         builder: (context, snapshot) {
-          print(snapshot);
-
           if (snapshot.connectionState == ConnectionState.waiting) {
             return const Center(child: CircularProgressIndicator.adaptive());
           }
