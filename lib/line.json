@@ -1,0 +1,26 @@
+{
+  "line": {
+    "type": "text",
+    "text": "อยากกินแนวไหนหล่ะ",
+    "quickReply": {
+      "items": [
+        {
+          "type": "action",
+          "action": { "type": "message", "label": "บะหมี่", "text": "บะหมี่" }
+        },
+        {
+          "type": "action",
+          "action": { "type": "message", "label": "ข้าว", "text": "ข้าว" }
+        },
+        {
+          "type": "action",
+          "action": {
+            "type": "message",
+            "label": "อะไรก็ได้",
+            "text": "อะไรก็ได้"
+          }
+        }
+      ]
+    }
+  }
+}

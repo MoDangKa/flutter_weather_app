@@ -1,0 +1,8 @@
+{
+  "name": "flutter_weather_app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://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@github.com/MoDangKa/flutter_weather_app.git",
+  "author": "Thanaphon <thanaphon.p@i3gateway.com>",
+  "license": "MIT"
+}
